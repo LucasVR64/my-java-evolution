@@ -7,7 +7,7 @@ public class ContaBancaria {
     public static void ContaBancaria (String [] args) {
 
 
-        Scanner input = new Scanner(System.in)//recebe o valor que o usuário irá digitar
+        Scanner input = new Scanner(System.in); //recebe o valor que o usuário irá digitar
 
         int opcao; //inteiro que recebe as opções do menu
 
@@ -19,7 +19,7 @@ public class ContaBancaria {
             System.out.println ("5-Sair");
             opcao = input.nextInt();
 
-        } while (opcao !=5) //enquanto os números forem diferentes de 5 ele irá rodar
+        } while (opcao !=5); //enquanto os números forem diferentes de 5 ele irá rodar
 
     }
 }
